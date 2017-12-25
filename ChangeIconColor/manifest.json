@@ -1,0 +1,14 @@
+{
+  "name": "A browser action which changes its icon when clicked",
+  "description": "Change browser action color when its icon is clicked",
+  "version": "1.0",
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  },
+  "browser_action": {
+    "name": "Click to Change the Icon color"
+  },
+  "manifest_version": 2
+}
