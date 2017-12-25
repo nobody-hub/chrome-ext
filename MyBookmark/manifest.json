@@ -1,0 +1,13 @@
+{
+  "name": "My Bookmark",
+  "version": "1.1",
+  "description": "A brower action with a popup dump",
+  "permissions": [
+    "bookmarks"
+  ],
+  "browser_action":{
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "manifest_version":2
+}
