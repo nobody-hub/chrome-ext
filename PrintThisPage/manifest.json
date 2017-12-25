@@ -1,0 +1,20 @@
+{
+  "name": "Print This Page",
+  "description": "Add Print Button to print the page",
+  "version": "1.1",
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  },
+  "permissions": [
+    "tabs",
+    "http://*/*",
+    "https://*/*"
+  ],
+  "browser_action": {
+    "default_title": "Print This Page",
+    "default_icon": "print_16x16.png"
+  },
+  "manifest_version": 2
+}
