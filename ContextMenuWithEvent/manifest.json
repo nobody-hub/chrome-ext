@@ -1,0 +1,15 @@
+{
+  "name": "Context Menus Sample(with Event Page)",
+  "description": "Show some of the features of the Content Menu API using an event page",
+  "version": "1.0",
+  "background": {
+    "persistent": false,
+    "scripts": [
+      "background.js"
+    ]
+  },
+  "permissions": [
+    "contextMenus"
+  ],
+  "manifest_version": 2
+}
