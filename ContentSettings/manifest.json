@@ -1,0 +1,15 @@
+{
+  "name": "Content settings",
+  "description": "Shows the content settings for the current site.",
+  "version": "0.2",
+  "permissions": [
+    "tabs",
+    "contentSettings"
+  ],
+  "browser_action": {
+    "default_title": "",
+    "default_popup": "popup.html",
+    "default_icon": "contentSettings.png"
+  },
+  "manifest_version": 2
+}
