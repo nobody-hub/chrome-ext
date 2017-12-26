@@ -1,0 +1,25 @@
+{
+  "name": "BrowsingData API: Basics",
+  "description": "A trivial usage example.",
+  "version": "1.0",
+  "content_scripts": [
+    {
+      "matches": [
+        "http://*/*",
+        "https://*/*"
+      ],
+      "js": [
+        "jquery.js"
+      ]
+    }
+  ],
+  "permissions": [
+    "browsingData"
+  ],
+  "browser_action": {
+    "default_title": "popup.html",
+    "default_popup": "popup.html",
+    "default_icon": "icon.png"
+  },
+  "manifest_version": 2
+}
