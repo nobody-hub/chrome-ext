@@ -1,0 +1,20 @@
+{
+  "name": "Cookis API Test Extension",
+  "description": "Testing Cookie API",
+  "version": "1.0",
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  },
+  "permissions": [
+    "cookies",
+    "tabs",
+    "http://*/*",
+    "https://*/*"
+  ],
+  "browser_action": {
+    "default_icon": "cookie.png"
+  },
+  "manifest_version": 2
+}
