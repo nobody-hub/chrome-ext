@@ -1,0 +1,20 @@
+{
+  "name": "Desktop Capture Example",
+  "description": "Desktop Capture Example",
+  "version": "1",
+  "icons": {
+    "16":"icon.png",
+    "128":"icon.png"
+  },
+  "app" :{
+    "background": {
+      "scripts": [
+        "background.js"
+      ]
+    }
+  },
+  "permissions":[
+    "desktopCapture"
+  ],
+  "manifest_version": 2
+}
